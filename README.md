@@ -17,6 +17,12 @@ cybersecurity-projects/
 ├── password-manager/
 │   ├── password_manager.py
 │   └── README.md
+├── port-scanner/
+│   ├── port_scanner.py
+│   └── README.md
+├── network-sniffer/
+│   ├── network_sniffer.py
+│   └── README.md
 └── README.md
 ```
 
@@ -25,68 +31,75 @@ cybersecurity-projects/
 ## 🔧 Projects
 
 ### 1. 🔍 Hash Identifier
+
 Identifies cryptographic hash types (MD5, SHA-1, SHA-256, etc.) from a given hash string using pattern matching.
 
-**Skills demonstrated:** Regex, pattern matching, cryptography fundamentals
+**Skills demonstrated:**
+
+Regex, pattern matching, cryptography fundamentals
 
 → [View Project](./hash-identifier/README.md)
 
 ---
 
 ### 2. 🌐 HTTP Headers Scanner
+
 Scans a target URL and analyses HTTP response headers for common security misconfigurations and missing security headers.
 
-**Skills demonstrated:** HTTP requests, security header analysis, web security
+**Skills demonstrated:**
+
+HTTP requests, security header analysis, web security
 
 → [View Project](./http-headers-scanner/README.md)
 
 ---
 
 ### 3. 🔐 Password Manager
+
 A CLI-based encrypted password vault using AES encryption (via Fernet) to securely store, retrieve, and manage credentials.
 
-**Skills demonstrated:** Symmetric encryption, key derivation, secure storage, CLI design
+**Skills demonstrated:**
+
+Symmetric encryption, key derivation, secure storage, CLI design
 
 → [View Project](./password-manager/README.md)
 
 ---
 
-## 🚀 Getting Started
+### 4. 🔌 Port Scanner
 
-### Prerequisites
-- Python 3.8+
-- pip
+A multi-threaded port scanner that identifies open ports, running services, and potential vulnerabilities on target hosts.
 
-### Installation
-```bash
-git clone https://github.com/Petex5/cybersecurity-projects.git
-cd cybersecurity-projects
-```
+**Skills demonstrated:**
 
-Each project has its own dependencies listed in its README.
+Socket programming, multi-threading, banner grabbing, network reconnaissance
+
+→ [View Project](./port-scanner/README.md)
 
 ---
 
-## 🧰 Tech Stack
+### 5. 📡 Network Sniffer
 
-| Tool | Purpose |
-|------|---------|
-| Python 3 | Core language |
-| `requests` | HTTP scanning |
-| `cryptography` | Fernet encryption |
-| `hashlib` | Hash operations |
-| `argparse` | CLI interfaces |
+A Python-based raw socket network sniffer that captures and analyzes TCP, UDP, and ICMP packets on the network interface.
 
----
+**Skills demonstrated:**
 
-## 👤 Author
+Raw sockets, packet parsing, protocol analysis, network monitoring
 
-Built as part of a cybersecurity portfolio to demonstrate practical Python scripting and security tooling skills.
-
-- GitHub: [@Petex5](https://github.com/Petex5)
+→ [View Project](./network-sniffer/README.md)
 
 ---
 
-## 📄 License
+## ⚠️ Legal Notice
 
-MIT License — free to use and modify.
+These tools are intended for **educational purposes**, **authorized security testing**, and **professional development** only. Always obtain explicit written authorization before using these tools against any system or network that you do not own or have permission to test. Unauthorized use may violate computer crime laws in your jurisdiction.
+
+---
+
+## 📜 License
+
+This project is licensed under the MIT License.
+
+## 👤 Attribution
+
+Maintained by **Petex5**.
